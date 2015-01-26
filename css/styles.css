@@ -1,3 +1,40 @@
+/*GLOBAL*/
+body{
+	font-family: Verdana, Geneva, sans-serif;
+	line-height: 25px;
+}
+
+/*HOME PAGE*/
+
+
+/*BIO PAGE*/
+.bio h2, 
+.bio h3, {
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+
+}
+.bio h1{
+text-transform: uppercase;
+letter-spacing: 3px;	
+}
+.bio section{
+	width: 50%;
+	float: left;
+}
+.bio article{
+	background: teal;
+	margin: 0 auto 0 auto;
+	width: 1000px;
+}
+
+
+/*STYLE TILE*/
+
+
+
+
 img{
-	width:100px;
+	max-height: 500px;
+	max-width: 500px;
 }
