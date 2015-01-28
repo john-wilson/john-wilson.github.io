@@ -4,6 +4,27 @@ body{
 	line-height: 25px;
 }
 
+p{
+font-family: 'Montserrat', sans-serif;
+}
+/*NAV*/
+nav a:link{
+  color: #123159;
+  text-decoration: none;
+}
+nav a:focus{
+  border: 2px solid red;
+}
+nav a:visited{
+  color: #4AA2D9;
+}
+nav a:hover{
+  background: #F2994B;
+}
+nav a:active {
+  background: #A64826;
+  color: #4AA2D9;
+}
 /*HOME PAGE*/
 
 
