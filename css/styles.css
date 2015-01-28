@@ -48,7 +48,25 @@ letter-spacing: 3px;
 	margin: 0 auto 0 auto;
 	width: 1000px;
 }
+article {
+	background: red;
+	margin: 0 auto;
+	width: 1000px;
+}
+header{
+	width: 1000px;
+}
 
+.col1{
+	width: 300px;
+	background: green;
+}
+.col2{
+	width: 300px;
+	width: yellow;
+}
+.col1, .col2,footer{
+	float:left;
 
 /*STYLE TILE*/
 
