@@ -1,79 +1,44 @@
-/*GLOBAL*/
-body{
-	font-family: Verdana, Geneva, sans-serif;
-	line-height: 25px;
+*{
+	text-align: center;
+}
+body {
+	font-family: Helvetica, sans-serif;
+	line-height: 1.5;
+	color: #878787;
+	margin: 0;
 }
 
-p{
-font-family: 'Montserrat', sans-serif;
+header {
+	padding-top: 120px;
+  padding-bottom: 90px;
+  margin-bottom: 50px;
 }
-/*NAV*/
-nav a:link{
-  color: #123159;
-  text-decoration: none;
-}
-nav a:focus{
-  border: 2px solid red;
-}
-nav a:visited{
-  color: #4AA2D9;
-}
-nav a:hover{
-  background: #F2994B;
-}
-nav a:active {
-  background: #A64826;
-  color: #4AA2D9;
-}
-/*HOME PAGE*/
 
 
-/*BIO PAGE*/
-.bio h2, 
-.bio h3, {
-	font-family: Verdana, Geneva, sans-serif;
+h1 {
+	font-size:72px;
+	font-weight: normal;
+	margin-top: 0;
+  line-height: 1;
+  background-color: green;
+ color: white;
+ padding: 90px;
+ margin-right: auto;
+ margin-left: auto;
+}
+h2{
+	font-size: 35px;
+	font-weight: lighter;
+	margin-bottom: 24px;
+	font-color: blue;
+}
+p {
+  color: initial;
+  line-height: 1.6;
+  padding: 0 24%;
+}
+
+blockquote{
 	text-align: center;
 
-}
-.bio h1{
-text-transform: uppercase;
-letter-spacing: 3px;	
-}
-.bio section{
-	width: 50%;
-	float: left;
-}
-.bio article{
-	background: teal;
-	margin: 0 auto 0 auto;
-	width: 1000px;
-}
-article {
-	background: red;
-	margin: 0 auto;
-	width: 1000px;
-}
-header{
-	width: 1000px;
-}
-
-.col1{
-	width: 300px;
-	background: green;
-}
-.col2{
-	width: 300px;
-	width: yellow;
-}
-.col1, .col2,footer{
-	float:left;
-
-/*STYLE TILE*/
-
-
-
-
-img{
-	max-height: 500px;
-	max-width: 500px;
 }
