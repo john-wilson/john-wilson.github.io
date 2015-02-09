@@ -42,3 +42,60 @@ blockquote{
 	text-align: center;
 
 }
+/* Layout for Style Tile
+Feel free to change */
+section {
+	margin: 20px 0;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3, 
+.imagery-1,
+.imagery-2,
+.imagery-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+.color-1 {
+	background: #046380;
+}
+
+.color-2 {
+	background: #002F2F;
+}
+.color-3 {
+	background: #A7A37E;
+}
+
+.pattern-1 {
+	background: url(../img/swirl_pattern.png);
+}
+
+.pattern-2 {
+	background: url(../img/dark_embroidery.png);
+}
+
+.pattern-3 {
+	background:#E6E2AF;
+}
+/* Set Your Own Typography */
+.style-tile h1 {
+background: #046380;
+
+}
+
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+
+/* Clearfix - Oo Not Remove */
+.clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
