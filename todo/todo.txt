@@ -1,0 +1,9 @@
+//The main purpose of creating this is to have a simple todo list on what needs to be done.
+
+1) Create a completely new design using CSS and HTML using Table's to reach the design that was 
+given. 
+2) Splice all the components and layers of each element in the .ai files that were given. 
+	Note: John you may have to do this in illustrator for me since I'm using Linux. 
+	I'll be going into more detail about which layers need to be created for the final design. 
+3) Finish the source code and finish what needs to be touched up upon. 
+	
