@@ -1,6 +1,9 @@
 *{
 	text-align: center;
+	background-image: url("/design/grey_wash_wall.png"); 
+
 }
+
 body {
 	font-family: Helvetica, sans-serif;
 	line-height: 1.5;
@@ -9,7 +12,7 @@ body {
 }
 
 header {
-	padding-top: 120px;
+  padding-top: 120px;
   padding-bottom: 90px;
   margin-bottom: 50px;
 }
