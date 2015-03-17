@@ -21,4 +21,12 @@ Done	 - Background image
 	 - Menu
 	 - Google fonts (Need to be given to me by John)
 	 - Contact form create using Typeform (LOL this is why Javascript was created)
+		Note: John Wilson you have to create a less 
+		      ugly typeform using typeform.com since 
+		      that's what monikoth what's you to do
+		Note: Plus I don't have your username and
+		      password for typeform. I don't touch
+		      garbage unless I have to so I'd rather
+		      not use typeform but if I have too
+		      respond in a commit. LOL typeform xD
 
