@@ -1,15 +1,59 @@
-*{
+/*{
 	text-align: center;
+	What are you selecting here? The entire page if so select html not just
+	everything as a whole
+}*/
+
+
+/*Like this*/
+
+html{
+	text-align: center;
+	background-image: url("grey_wash_wall.png"); 
 }
+
 body {
 	font-family: Helvetica, sans-serif;
 	line-height: 1.5;
-	color: #878787;
+	/*color: #878787;*/
 	margin: 0;
 }
 
+#navmenu{
+	width: 550px;
+	height: 35px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 3px 2px 3px #333333;
+}
+
+#navmenu ul{
+	height: auto;
+	padding: 8px 0px;
+	margin: 0px;
+}
+
+#navmenu li{
+	display: inline;
+	padding: 20px;
+}
+
+#navmenu a{
+	text-decoration: none;
+	color: #00F;
+	padding: 8px 8px 8px 8px;
+}
+
+#navmenu a:hover{
+	color:#F90;
+	background-color: #FFF;
+}
+
+
+
 header {
-	padding-top: 120px;
+  padding-top: 120px;
   padding-bottom: 90px;
   margin-bottom: 50px;
 }
@@ -19,19 +63,21 @@ h1 {
 	font-size:72px;
 	font-weight: normal;
 	margin-top: 0;
-  line-height: 1;
-  background-color: green;
- color: white;
- padding: 90px;
- margin-right: auto;
- margin-left: auto;
+    line-height: 1;
+    /*background-color: green; */
+    color: white;
+    padding: 90px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
 h2{
 	font-size: 35px;
 	font-weight: lighter;
 	margin-bottom: 24px;
 	font-color: blue;
 }
+
 p {
   color: initial;
   line-height: 1.6;
@@ -42,6 +88,7 @@ blockquote{
 	text-align: center;
 
 }
+
 /* Layout for Style Tile
 Feel free to change */
 section {
@@ -86,6 +133,7 @@ section {
 .pattern-3 {
 	background:#E6E2AF;
 }
+
 /* Set Your Own Typography */
 .style-tile h1 {
 background: #046380;
