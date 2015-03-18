@@ -45,8 +45,6 @@ h1 {
 h2{
 	font-size: 35px;
 	font-weight: lighter;
-	margin-bottom: 24px;
-	font-color: blue;
 }
 
 p {
@@ -143,6 +141,23 @@ li{
 	height: 120px;
 }
 
+#pic1{
+	float: left;
+	width: 30%;
+	margin-right: 10%;
+	margin-left: 19%;
+	margin-top: 7.5em;
+	margin-bottom: 4.5em;
+}
+
+#pic2{
+	float: left;
+	width: 30%;
+	margin-right: 1%;
+	margin-top: 7.5em;
+	margin-bottom: 4.5em;
+}
+
 #designprojects{
 	display: block;
 	background-color: grey;
@@ -159,16 +174,7 @@ li{
 	text-align: left;
 }
 
-/*.images{
-	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-	height: 500px;
-}
 
-#selfpic{
-	text-align:center;
-}*/
 
 /* Layout for Style Tile
 Feel free to change */
