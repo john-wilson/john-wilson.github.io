@@ -164,6 +164,8 @@ li{
 	color: white;
 	font-size: 16px;
 	text-align: left;
+	content: '';
+	clear: both;
 }
 
 #photography{
@@ -177,7 +179,7 @@ li{
 
 
 /* Layout for Style Tile
-Feel free to change */
+Feel free to change 
 section {
 	margin: 20px 0;
 }
@@ -221,11 +223,11 @@ section {
 	background:#E6E2AF;
 }
 
-/* Set Your Own Typography */
+/* Set Your Own Typography 
 .style-tile h1 {
 background: #046380;
 
-}
+}*/
 
 /* Set Your Own Margin & Padding */
 h2, h3, p {
