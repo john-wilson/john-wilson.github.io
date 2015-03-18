@@ -1,6 +1,6 @@
 .gallery .control-operator:target ~ .controls .control-button {
-  color: #ccc;
-  color: rgba(255, 255, 255, 0.4);
+  /*color: #ccc;*/
+  /*color: rgba(255, 255, 255, 0.4);*/
 }
 
 .gallery .control-button:first-of-type,
@@ -660,7 +660,7 @@
   height: 400px;
   overflow: hidden;
   text-align: center;
-  background: #4d87e2;
+  /*background: #4d87e2;*/
 }
 
 .gallery .controls {
