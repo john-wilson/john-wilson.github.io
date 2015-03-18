@@ -23,8 +23,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
   height: 100%;
+  width: 100%;
   pointer-events: none;
   opacity: 0;
   -webkit-transition: opacity .5s;
@@ -33,7 +33,7 @@
 }
 
 .gallery .control-operator {
-  display: none;
+  display: block;
 }
 
 .gallery .control-operator:target ~ .item {
@@ -680,3 +680,5 @@
   -o-transition: color .1s;
   transition: color .1s;
 }
+
+.clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}

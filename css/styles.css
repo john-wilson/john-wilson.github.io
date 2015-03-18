@@ -23,9 +23,52 @@ div{
 	display: block;
 }
 
+header {
+  padding-top: 120px;
+  padding-bottom: 90px;
+  margin-bottom: 50px;
+}
+
+
+h1 {
+	font-size:72px;
+	font-weight: normal;
+	margin-top: 0;
+    line-height: 1;
+    /*background-color: green; */
+    color: white;
+    padding: 90px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h2{
+	font-size: 35px;
+	font-weight: lighter;
+}
+
+p {
+  color: initial;
+  line-height: 1.6;
+  padding: 0 24%;
+}
+
+blockquote{
+	text-align: center;
+	margin: 30;
+
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	list-style-type: none;
+}
 .navmenu{
 	height: 64px;
-	/*background: url("grey_wash_wall.png");*/
+	background-color: grey; 
 	width: 100%;
 	margin: 0 auto;
 }
@@ -48,23 +91,27 @@ div{
 }
 
 .menu-right{
-	right: 200px;
+	right: 150px;
 }
 
 .navmenu ul{
 	list-style: none;
+	text-decoration: none;
+	font-style: none;
 	margin: 0;
 	padding: 0;
 	height: 64px;
 	line-height: 64px;
 }
 
-.navmenu ul li{
+.navmenu ul li a{
 	float: left;
+	text-decoration: none;
 	font-size: 20px;
-
+	font-style: none;
 	text-transform: uppercase;
 	margin: 0 20px;
+	color: white;
 }
 
 .menu-right ul li{
@@ -89,48 +136,45 @@ div{
 }
 
 .logo2{
-	position: relative;
-	width: ;
-	height: ;
+	position: absolute;
+	width: 980px;
+	height: 120px;
+}
+
+#pic1{
+	float: left;
+	width: 30%;
+	margin-right: 10%;
+	margin-left: 19%;
+	margin-top: 7.5em;
+	margin-bottom: 4.5em;
+}
+
+#pic2{
+	float: left;
+	width: 30%;
+	margin-right: 1%;
+	margin-top: 7.5em;
+	margin-bottom: 4.5em;
+}
+
+#designprojects{
+	display: block;
+	background-color: grey;
+	color: white;
+	font-size: 16px;
+	text-align: left;
+}
+
+#photography{
+	display: block;
+	background-color: grey;
+	color: white;
+	font-size: 16px;
+	text-align: left;
 }
 
 
-header {
-  padding-top: 120px;
-  padding-bottom: 90px;
-  margin-bottom: 50px;
-}
-
-
-h1 {
-	font-size:72px;
-	font-weight: normal;
-	margin-top: 0;
-    line-height: 1;
-    /*background-color: green; */
-    color: white;
-    padding: 90px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-h2{
-	font-size: 35px;
-	font-weight: lighter;
-	margin-bottom: 24px;
-	font-color: blue;
-}
-
-p {
-  color: initial;
-  line-height: 1.6;
-  padding: 0 24%;
-}
-
-blockquote{
-	text-align: center;
-
-}
 
 /* Layout for Style Tile
 Feel free to change */
