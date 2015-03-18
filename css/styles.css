@@ -23,9 +23,53 @@ div{
 	display: block;
 }
 
+header {
+  padding-top: 120px;
+  padding-bottom: 90px;
+  margin-bottom: 50px;
+}
+
+
+h1 {
+	font-size:72px;
+	font-weight: normal;
+	margin-top: 0;
+    line-height: 1;
+    /*background-color: green; */
+    color: white;
+    padding: 90px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h2{
+	font-size: 35px;
+	font-weight: lighter;
+	margin-bottom: 24px;
+	font-color: blue;
+}
+
+p {
+  color: initial;
+  line-height: 1.6;
+  padding: 0 24%;
+}
+
+blockquote{
+	text-align: center;
+
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	list-style-type: none;
+}
 .navmenu{
 	height: 64px;
-	/*background: url("grey_wash_wall.png");*/
+	background-color: grey; 
 	width: 100%;
 	margin: 0 auto;
 }
@@ -89,48 +133,11 @@ div{
 }
 
 .logo2{
-	position: relative;
+	position: absolute;
 	width: ;
 	height: ;
 }
 
-
-header {
-  padding-top: 120px;
-  padding-bottom: 90px;
-  margin-bottom: 50px;
-}
-
-
-h1 {
-	font-size:72px;
-	font-weight: normal;
-	margin-top: 0;
-    line-height: 1;
-    /*background-color: green; */
-    color: white;
-    padding: 90px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-h2{
-	font-size: 35px;
-	font-weight: lighter;
-	margin-bottom: 24px;
-	font-color: blue;
-}
-
-p {
-  color: initial;
-  line-height: 1.6;
-  padding: 0 24%;
-}
-
-blockquote{
-	text-align: center;
-
-}
 
 /* Layout for Style Tile
 Feel free to change */
