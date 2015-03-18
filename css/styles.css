@@ -19,38 +19,80 @@ body {
 	margin: 0;
 }
 
-#navmenu{
-	width: 550px;
-	height: 35px;
-	font-size: 16px;
-	font-weight: bold;
-	text-align: center;
-	text-shadow: 3px 2px 3px #333333;
-	font-family: 'Amatic SC', cursive;
+div{
+	display: block;
 }
 
-#navmenu ul{
-	height: auto;
-	padding: 8px 0px;
-	margin: 0px;
+.navmenu{
+	height: 64px;
+	/*background: url("grey_wash_wall.png");*/
+	width: 100%;
+	margin: 0 auto;
 }
 
-#navmenu li{
-	display: inline;
-	padding: 20px;
+.container{
+	width: 960px;
+	position: relative;
+	margin: 0 auto;
 }
 
-#navmenu a{
-	text-decoration: none;
-	color: #00F;
-	padding: 8px 8px 8px 8px;
+.menu-left, .menu-right{
+	width: 360px;
+	height: 64px;
+	position: absolute;
+	top: 0;
 }
 
-#navmenu a:hover{
-	color:#F90;
-	background-color: #FFF;
+.menu-left{
+	left: 200px;
 }
 
+.menu-right{
+	right: 200px;
+}
+
+.navmenu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 64px;
+	line-height: 64px;
+}
+
+.navmenu ul li{
+	float: left;
+	font-size: 20px;
+
+	text-transform: uppercase;
+	margin: 0 20px;
+}
+
+.menu-right ul li{
+	float: right;
+}
+
+#logo-container{
+	width: 140px;
+	height: 128px;
+	position: absolute;
+	left: 50%;
+}
+
+.logo{
+	position: relative;
+	left: -110px;
+	width: 140px;
+	height: 128px;
+	background: url("logo.png") center center;
+	border-radius: 0 0 20px 20px;
+	border: 1px; /*lets see what this does*/
+}
+
+.logo2{
+	position: relative;
+	width: ;
+	height: ;
+}
 
 
 header {
