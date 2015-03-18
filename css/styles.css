@@ -130,15 +130,16 @@ li{
 	left: -110px;
 	width: 140px;
 	height: 128px;
-	background: url("logo.png") center center;
+	background: url("logob.png") center center;
 	border-radius: 0 0 20px 20px;
 	border: 1px; /*lets see what this does*/
+
 }
 
 .logo2{
 	position: absolute;
-	width: 980px;
-	height: 120px;
+	width: 100%;
+	height: 100%;
 }
 
 #pic1{
