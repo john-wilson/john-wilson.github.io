@@ -57,6 +57,7 @@ p {
 
 blockquote{
 	text-align: center;
+	margin: 30;
 
 }
 
@@ -92,23 +93,27 @@ li{
 }
 
 .menu-right{
-	right: 200px;
+	right: 150px;
 }
 
 .navmenu ul{
 	list-style: none;
+	text-decoration: none;
+	font-style: none;
 	margin: 0;
 	padding: 0;
 	height: 64px;
 	line-height: 64px;
 }
 
-.navmenu ul li{
+.navmenu ul li a{
 	float: left;
+	text-decoration: none;
 	font-size: 20px;
-
+	font-style: none;
 	text-transform: uppercase;
 	margin: 0 20px;
+	color: white;
 }
 
 .menu-right ul li{
@@ -134,10 +139,36 @@ li{
 
 .logo2{
 	position: absolute;
-	width: ;
-	height: ;
+	width: 980px;
+	height: 120px;
 }
 
+#designprojects{
+	display: block;
+	background-color: grey;
+	color: white;
+	font-size: 16px;
+	text-align: left;
+}
+
+#photography{
+	display: block;
+	background-color: grey;
+	color: white;
+	font-size: 16px;
+	text-align: left;
+}
+
+/*.images{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
+}
+
+#selfpic{
+	text-align:center;
+}*/
 
 /* Layout for Style Tile
 Feel free to change */
