@@ -30,7 +30,7 @@ var main = function() {
     //========== END OF TO-TOP ============//
 
 $(document).ready(function(){
-  $('.your-class').slick({
+  $('.slider').slick({
     settingName: setting-value
   });
 });
