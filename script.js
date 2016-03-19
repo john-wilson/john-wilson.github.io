@@ -31,7 +31,6 @@ var main = function() {
 
 $(document).ready(function(){
   $('.slider').slick({
-    settingName: setting-value
   });
 });
 };
