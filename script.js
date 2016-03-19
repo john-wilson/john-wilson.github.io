@@ -29,10 +29,5 @@ var main = function() {
     });
     //========== END OF TO-TOP ============//
 
-$(document).ready(function(){
-  $('.slider').slick({
-  });
-});
-};
 
 $(document).ready(main);
